@@ -11,7 +11,7 @@ pipeline {
         PORT           = "8081"                    // 컨테이너와 연결할 포트
 
         REMOTE_USER = "ec2-user"                   // 원격(spring) 서버 사용자
-        REMOTE_HOST = "ip 3.38.69.145"               // 원격(spring) 서버 탄력적 IP  ← 본인 값으로 수정
+        REMOTE_HOST = "3.38.69.145"               // 원격(spring) 서버 탄력적 IP  ← 본인 값으로 수정
 
         REMOTE_DIR = "/home/ec2-user/deploy"       // 원격 서버 배포 경로
         SSH_CREDENTIALS_ID = "922cc935-fdf9-4a45-9661-68f1d20dc5bf" // ← 본인 Credentials ID로 수정
